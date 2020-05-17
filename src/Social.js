@@ -7,7 +7,7 @@ import { ReactComponent as CodingPortfolio } from "./assets/coding.svg";
 
 const animation = `transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:opacity-100`;
 const image = `h-8 w-8 opacity-50 ml-8`;
-const style = { cursor: "pointer", zIndex: "2", fill: "white" }
+const style = { cursor: "pointer", zIndex: "2", fill: "white" };
 
 const Social = (props) => {
   return (
@@ -31,6 +31,9 @@ const Social = (props) => {
         onClick={() => (window.location.href = "https://blog.chander.app")}
       />
       <CodingPortfolio
+        onClick={() =>
+          (window.location.href = "https://blog.chander.app/about")
+        }
         className={`${image} ${animation}`}
         style={style}
       />
