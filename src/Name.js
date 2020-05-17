@@ -10,7 +10,7 @@ const Name = (props) => {
         letterSpacing: "1px",
       }}
     >
-      <p className="flex-none text-red-700 pr-3">Chander</p>
+      <p className="flex-none pr-3" style={{ color: '#c70039' }}>Chander</p>
       <p className="flex-none text-gray-100">Ramesh</p>
     </div>
   );
