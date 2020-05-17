@@ -6,6 +6,7 @@ const Profile = (props) => {
     <img
       className="self-center opacity-50"
       src={picture}
+      alt="Profile of Chander Ramesh"
       style={{
         WebkitMaskImage:
           "-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))",
