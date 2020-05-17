@@ -3,7 +3,7 @@ import React from "react";
 const Name = (props) => {
   return (
     <div
-      className="font-bold flex-grow self-center flex justify-center"
+      className="font-bold self-center flex justify-center"
       style={{
         fontFamily: "poppins",
         fontSize: "4.1rem",

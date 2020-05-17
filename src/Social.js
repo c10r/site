@@ -6,11 +6,11 @@ import { ReactComponent as LinkedIn } from "./assets/linkedin.svg";
 import { ReactComponent as CodingPortfolio } from "./assets/coding.svg";
 
 const animation = `transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:opacity-100`;
-const image = `h-8 w-8 opacity-50`;
+const image = `h-8 w-8 opacity-50 ml-8`;
 
 const Social = (props) => {
   return (
-    <div className="flex-none flex flex-col h-screen justify-center ml-16">
+    <div className="w-1/3 flex-none flex flex-col h-screen justify-center">
       <Twitter
         className={`${image} ${animation} mb-4`}
         style={{ cursor: "pointer" }}

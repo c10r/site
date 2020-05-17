@@ -5,7 +5,7 @@ import Profile from "./Profile.js";
 
 function App() {
   return (
-    <div className="flex w-screen h-screen">
+    <div className="flex justify-between w-screen h-screen">
       <Social />
       <Name />
       <Profile />
