@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Name = (props) => {
   return (
@@ -9,4 +9,4 @@ const Name = (props) => {
   );
 }
 
-export default Name
+export default Name;
