@@ -1,8 +1,11 @@
 import React from 'react';
+import Name from './Name.js';
 
 function App() {
   return (
-    <h1>This is Chander's site</h1>
+    <div className="flex w-screen h-screen">
+      <Name />
+    </div>
   );
 }
 
