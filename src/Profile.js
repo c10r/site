@@ -5,7 +5,7 @@ const Profile = (props) => {
   return (
     <div className="w-1/3 self-center flex justify-end">
       <img
-        className="w-128 opacity-50"
+        className="w-128 opacity-75"
         src={picture}
         alt="Profile of Chander Ramesh"
         style={{
