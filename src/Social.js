@@ -13,11 +13,13 @@ const Social = (props) => {
   return (
     <div className="w-1/3 flex-none flex flex-col h-screen justify-center">
       <Twitter
+        id="twitter"
         className={`${image} ${animation} mb-4`}
         style={style}
         onClick={() => (window.location.href = "https://twitter.com/chander")}
       />
       <LinkedIn
+        id="linked-in"
         className={`${image} ${animation} mb-4`}
         style={style}
         onClick={() =>
@@ -26,11 +28,13 @@ const Social = (props) => {
         }
       />
       <Quill
+        id="blog"
         className={`${image} ${animation} mb-4`}
         style={style}
         onClick={() => (window.location.href = "https://blog.chander.app")}
       />
       <CodingPortfolio
+        id="portfolio"
         onClick={() =>
           (window.location.href = "https://blog.chander.app/about")
         }
