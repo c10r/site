@@ -120,7 +120,7 @@ function App() {
   }, []);
 
   return (
-    <div id="particles" className="flex justify-between w-screen h-screen">
+    <div id="particles" className="flex flex-col justify-center lg:flex-row lg:justify-between w-screen h-screen">
       <Social />
       <Name />
       <Profile />
