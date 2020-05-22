@@ -1,5 +1,6 @@
 import React from "react";
 
+import { ReactComponent as Blog } from "./assets/blog.svg";
 import { ReactComponent as Quill } from "./assets/education.svg";
 import { ReactComponent as Twitter } from "./assets/twitter.svg";
 import { ReactComponent as LinkedIn } from "./assets/linkedin.svg";
@@ -28,6 +29,12 @@ const Social = (props) => {
           (window.location.href =
             "https://www.linkedin.com/in/chandrasekarramesh/")
         }
+      />
+      <Blog
+        id="medium"
+        className={`${image} ${animation} lg:mb-4`}
+        style={style}
+        onClick={() => (window.location.href = "https://medium.com/@c5r")}
       />
       <Quill
         id="blog"
